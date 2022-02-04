@@ -153,21 +153,21 @@ movie3.rated = "PG-13"
 movie3.director_id = nolan_id
 movie3.save
 
-batman_begins = Movie.where({name:"Batman Begins"})[0]
-the_dark_knight = Movie.where({name:"The Dark Knight"})[0]
-the_dark_knight_rises = Movie.where({name:"The Dark Knight Rises"})[0]
+batman_begins = Movie.where({title: "Batman Begins"})[0]
+the_dark_knight = Movie.where({title: "The Dark Knight"})[0]
+the_dark_knight_rises = Movie.where({title: "The Dark Knight Rises"})[0]
 
-cbale = Person.where({name:"Christian Bale"})[0]
-mcaine = Person.where({name:"Michael Caine"})[0]
-lneeson = Person.where({name:"Liam Neeson"})[0]
-kholmes = Person.where({name:"Katie Holmes"})[0]
-goldman = Person.where({name:"Gary Oldman"})[0]
-hledger = Person.where({name:"Heath Ledger"})[0]
-aeckhart = Person.where({name:"Aaron Eckhart"})[0]
-mgyllenhaal = Person.where({name:"Maggie Gyllenhaal"})[0]
-thardy = Person.where({name:"Tom Hardy"})[0]
-jglevitt = Person.where({name:"Joseph Gordon-Levitt"})[0]
-ahathaway = Person.where({name:"Anne Hathaway"})[0]
+cbale = Person.where({name: "Christian Bale"})[0]
+mcaine = Person.where({name: "Michael Caine"})[0]
+lneeson = Person.where({name: "Liam Neeson"})[0]
+kholmes = Person.where({name: "Katie Holmes"})[0]
+goldman = Person.where({name: "Gary Oldman"})[0]
+hledger = Person.where({name: "Heath Ledger"})[0]
+aeckhart = Person.where({name: "Aaron Eckhart"})[0]
+mgyllenhaal = Person.where({name: "Maggie Gyllenhaal"})[0]
+thardy = Person.where({name: "Tom Hardy"})[0]
+jglevitt = Person.where({name: "Joseph Gordon-Levitt"})[0]
+ahathaway = Person.where({name: "Anne Hathaway"})[0]
 
 role1 = Role.new
 role1.movie_id = batman_begins.id
