@@ -153,9 +153,9 @@ movie3.rated = "PG-13"
 movie3.director_id = nolan_id
 movie3.save
 
-# batman_begins = Movie.where({name:"Batman Begins"})[0]
-# the_dark_knight = Movie.where({name:"The Dark Knight"})[0]
-# the_dark_knight_rises = Movie.where({name:"The Dark Knight Rises"})[0]
+batman_begins = Movie.where({name:"Batman Begins"})[0]
+the_dark_knight = Movie.where({name:"The Dark Knight"})[0]
+the_dark_knight_rises = Movie.where({name:"The Dark Knight Rises"})[0]
 
 cbale = Person.where({name:"Christian Bale"})[0]
 mcaine = Person.where({name:"Michael Caine"})[0]
