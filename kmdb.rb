@@ -85,18 +85,69 @@ movie1.title = "Batman Begins"
 movie1.year = 2005
 movie1.rated = "PG-13"
 movie1.director_id = "MISSING"
+movie1.save
 
 movie2 = Movie.new
 movie2.title = "The Dark Knight"
 movie2.year = 2008
 movie2.rated = "PG-13"
 movie2.director_id = "MISSING"
+movie2.save
 
 movie3 = Movie.new
 movie3.title = "The Dark Knight Rises"
 movie3.year = 2012
 movie3.rated = "PG-13"
 movie3.director_id = "MISSING"
+movie3.save
+
+person1 = Person.new
+person1.name = "Christopher Nolan"
+person1.save
+
+person2 = Person.new
+person2.name = "Christian Bale"
+person2.save
+
+person3 = Person.new
+person3.name = "Michael Caine"
+person3.save
+
+person4 = Person.new
+person4.name = "Liam Neeson"
+person4.save
+
+person5 = Person.new
+person5.name = "Katie Holmes"
+person5.save
+
+person6 = Person.new
+person6.name = "Gary Oldman"
+person6.save
+
+person7 = Person.new
+person7.name = "Heath Ledger"
+person7.save
+
+person8 = Person.new
+person8.name = "Aaron Eckhart"
+person8.save
+
+person9 = Person.new
+person9.name = "Maggie Gyllenhaal"
+person9.save
+
+person10 = Person.new
+person10.name = "Tom Hardy"
+person10.save
+
+person11 = Person.new
+person11.name = "Joseph Gordon-Levitt"
+person11.save
+
+person12 = Person.new
+person12.name = "Anne Hathaway"
+person12.save
 
 
 # Prints a header for the movies output
