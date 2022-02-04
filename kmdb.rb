@@ -170,94 +170,94 @@ jglevitt = Person.where({name: "Joseph Gordon-Levitt"})[0]
 ahathaway = Person.where({name: "Anne Hathaway"})[0]
 
 role1 = Role.new
-role1.movie_id = batman_begins.id
-role1.actor_id = cbale.id
+# role1.movie_id = batman_begins.id
+# role1.actor_id = cbale.id
 role1.character_name = "Bruce Wayne"
 role1.save
 
-role2 = Role.new
-role2.movie_id = batman_begins.id
-role2.actor_id = mcaine.id
-role2.character_name = "Alfred"
-role2.save
+# role2 = Role.new
+# role2.movie_id = batman_begins.id
+# role2.actor_id = mcaine.id
+# role2.character_name = "Alfred"
+# role2.save
 
-role3 = Role.new
-role3.movie_id = batman_begins.id
-role3.actor_id = lneeson.id
-role3.character_name = "Ra's Al Ghul"
-role3.save
+# role3 = Role.new
+# role3.movie_id = batman_begins.id
+# role3.actor_id = lneeson.id
+# role3.character_name = "Ra's Al Ghul"
+# role3.save
 
-role4 = Role.new
-role4.movie_id = batman_begins.id
-role4.actor_id = kholmes.id
-role4.character_name = "Rachel Dawes"
-role4.save
+# role4 = Role.new
+# role4.movie_id = batman_begins.id
+# role4.actor_id = kholmes.id
+# role4.character_name = "Rachel Dawes"
+# role4.save
 
-role5 = Role.new
-role5.movie_id = batman_begins.id
-role5.actor_id = goldman.id
-role5.character_name = "Commissioner Gordon"
-role5.save
+# role5 = Role.new
+# role5.movie_id = batman_begins.id
+# role5.actor_id = goldman.id
+# role5.character_name = "Commissioner Gordon"
+# role5.save
 
-role1 = Role.new
-role1.movie_id = the_dark_knight.id
-role1.actor_id = cbale.id
-role1.character_name = "Bruce Wayne"
-role1.save
+# role1 = Role.new
+# role1.movie_id = the_dark_knight.id
+# role1.actor_id = cbale.id
+# role1.character_name = "Bruce Wayne"
+# role1.save
 
-role2 = Role.new
-role2.movie_id = the_dark_knight.id
-role2.actor_id = hledger.id
-role2.character_name = "Joker"
-role2.save
+# role2 = Role.new
+# role2.movie_id = the_dark_knight.id
+# role2.actor_id = hledger.id
+# role2.character_name = "Joker"
+# role2.save
 
-role3 = Role.new
-role3.movie_id = the_dark_knight.id
-role3.actor_id = aeckhart.id
-role3.character_name = "Harvey Dent"
-role3.save
+# role3 = Role.new
+# role3.movie_id = the_dark_knight.id
+# role3.actor_id = aeckhart.id
+# role3.character_name = "Harvey Dent"
+# role3.save
 
-role4 = Role.new
-role4.movie_id = the_dark_knight.id
-role4.actor_id = mcaine.id
-role4.character_name = "Alfred"
-role4.save
+# role4 = Role.new
+# role4.movie_id = the_dark_knight.id
+# role4.actor_id = mcaine.id
+# role4.character_name = "Alfred"
+# role4.save
 
-role5 = Role.new
-role5.movie_id = the_dark_knight.id
-role5.actor_id = mgyllenhaal.id
-role5.character_name = "Rachel Dawes"
-role5.save
+# role5 = Role.new
+# role5.movie_id = the_dark_knight.id
+# role5.actor_id = mgyllenhaal.id
+# role5.character_name = "Rachel Dawes"
+# role5.save
 
-role1 = Role.new
-role1.movie_id = the_dark_knight_rises.id
-role1.actor_id = cbale.id
-role1.character_name = "Bruce Wayne"
-role1.save
+# role1 = Role.new
+# role1.movie_id = the_dark_knight_rises.id
+# role1.actor_id = cbale.id
+# role1.character_name = "Bruce Wayne"
+# role1.save
 
-role2 = Role.new
-role2.movie_id = the_dark_knight_rises.id
-role2.actor_id = goldman.id
-role2.character_name = "Commissioner Gordon"
-role2.save
+# role2 = Role.new
+# role2.movie_id = the_dark_knight_rises.id
+# role2.actor_id = goldman.id
+# role2.character_name = "Commissioner Gordon"
+# role2.save
 
-role3 = Role.new
-role3.movie_id = the_dark_knight_rises.id
-role3.actor_id = thardy.id
-role3.character_name = "Bane"
-role3.save
+# role3 = Role.new
+# role3.movie_id = the_dark_knight_rises.id
+# role3.actor_id = thardy.id
+# role3.character_name = "Bane"
+# role3.save
 
-role4 = Role.new
-role4.movie_id = the_dark_knight_rises.id
-role4.actor_id = jglevitt.id
-role4.character_name = "John Blake"
-role4.save
+# role4 = Role.new
+# role4.movie_id = the_dark_knight_rises.id
+# role4.actor_id = jglevitt.id
+# role4.character_name = "John Blake"
+# role4.save
 
-role5 = Role.new
-role5.movie_id = the_dark_knight_rises.id
-role5.actor_id = ahathaway.id
-role5.character_name = "Selina Kyle"
-role5.save
+# role5 = Role.new
+# role5.movie_id = the_dark_knight_rises.id
+# role5.actor_id = ahathaway.id
+# role5.character_name = "Selina Kyle"
+# role5.save
 
 # Prints a header for the movies output
 puts "Movies"
