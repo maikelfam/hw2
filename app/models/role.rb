@@ -1,4 +1,4 @@
 class Role < ApplicationRecord
-    belongs_to :movie
-    belongs_to :person
+    has_many :movie
+    has_many :person
 end
