@@ -268,6 +268,13 @@ puts ""
 # Query the movies data and loop through the results to display the movies output
 # TODO!
 
+all_movies = Movie.all
+
+for movie in all_movies
+    puts "#{movie.title}  #{movie.year}  #{movie.rated} "
+end 
+
+
 # Prints a header for the cast output
 puts ""
 puts "Top Cast"
